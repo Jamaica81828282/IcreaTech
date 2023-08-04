@@ -1,20 +1,23 @@
- .title{
+  .title{
     color: green;
+    text-align: center;
  }
 
  .text2{
     color: hotpink;
+    text-align: center;
  }
 
  .text3{
     color: indigo;
     font-size: 25px;
+    text-align: center;
  }
 
  .text4{
     color: green;
     margin-left: 150px; 
-    
+   
 }
 
 .table{
@@ -22,12 +25,14 @@
     margin: 0;
     font-family: Arial;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .table{
    height: 100vh;
    display: grid;
    place-items: center;   
+   
 }
 
 .table{
@@ -40,6 +45,7 @@
    border: 1px solid lightgray;
    border-collapse: collapse;
    text-align: center;
+   justify-items: center;
 
 }
 
@@ -51,7 +57,8 @@
 .text5{
    font-weight: bold;
    font-size: 18px;
-   margin-left: 180px;
+   margin-right: 900px;
+   padding: 0 ;
 }
 
  .image{
@@ -59,5 +66,12 @@
    width: 600px;
    justify-content: center;
    border-radius: 10px;
+   padding: 0;
+   margin-left: 400px;
+   margin-top: 20px;
  
+ }
+
+ p{
+   text-align: center;
  }
